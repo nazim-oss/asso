@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex" />
-    <title>Nazim Delaine - Conseil & Projets Numériques</title>
+    <title>Nazim Delaine - Conseil &amp; Projets Numériques</title>
     
     <!-- Intégration de la police Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
     
     <!-- Intégration de Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -87,26 +86,15 @@
 </head>
 <body class="antialiased font-sans leading-relaxed text-primary">
 
-    <header class="pt-24 pb-16 px-6 sm:px-12 lg:px-24 max-w-5xl mx-auto text-center flex flex-col items-center">
-        <!-- Photo Médaillon -->
-        <div class="mb-8 relative">
-            <div class="absolute inset-0 rounded-full bg-slate-200 animate-pulse -z-10 blur-md"></div>
-            <img 
-                src="Nazim-Delaine-2026-02-21.jpg" 
-                alt="Nazim Delaine" 
-                class="w-[160px] h-[160px] object-cover rounded-full shadow-lg border-4 border-surface"
-                onerror="this.src='https://placehold.co/160x160/e2e8f0/475569?text=ND'"
-            >
-        </div>
+    <header class="pt-24 pb-10 px-6 sm:px-12 lg:px-24 max-w-5xl mx-auto text-center flex flex-col items-center">
+        <!-- Bandeau centré au-dessus du titre -->
+        <img src="bandeau-5-icones.png" alt="Expertises" class="mx-auto h-12 sm:h-16 mb-8 object-contain" onerror="this.src='https://placehold.co/300x60/e2e8f0/ffffff?text=offre+assos'">
 
         <h1 class="text-4xl sm:text-5xl font-bold tracking-tight mb-4 text-primary">
             Des outils numériques au service de votre mission
         </h1>
         <p class="text-xl sm:text-2xl font-medium text-secondary mb-6">
-            Conseil, conformité, organisation et projets numériques pour les associations.
-        </p>
-        <p class="text-lg max-w-3xl mx-auto text-secondary mb-10">
-            Votre association évolue. Vos outils aussi. Je vous accompagne dans vos projets numériques, de la réflexion à la mise en œuvre.
+            Conseil, conformité, organisation et projets numériques pour les associations
         </p>
 
         <!-- Coordonnées Hero -->
@@ -120,240 +108,260 @@
     </header>
 
     <main>
-        <section id="services" class="py-16 px-6 sm:px-12 lg:px-24 max-w-4xl mx-auto">
-            <h2 class="text-3xl font-bold mb-10 text-center text-primary uppercase tracking-wider text-sm">Services</h2>
-            
-            <div class="space-y-4">
+        <section id="services" class="py-8 px-6 sm:px-12 lg:px-24">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="font-bold mb-6 uppercase tracking-wider text-sm text-[#777777]">Services</h2>
                 
-                <!-- Service 1 -->
-                <div class="bg-surface rounded-xl shadow-sm border border-slate-100 overflow-hidden">
-                    <button class="accordion-header w-full text-left px-6 py-5 flex justify-between items-center focus:outline-none hover:bg-slate-50 transition-colors">
-                        <div class="pr-6">
-                            <h3 class="text-lg font-semibold text-primary">🔎 Vous souhaitez faire évoluer vos pratiques numériques ?</h3>
-                            <p class="text-sm text-secondary mt-1">Diagnostic · conseil · cadrage · choix d'outils · feuille de route</p>
-                        </div>
-                        <svg class="chevron w-6 h-6 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="px-6 pb-6 pt-2 border-t border-slate-50">
-                            <p class="text-secondary mb-4">
-                                Vous avez des outils, des processus ou des projets numériques à faire évoluer, mais vous souhaitez d'abord prendre du recul ? Je peux vous aider à analyser l'existant, recueillir les besoins des équipes, identifier les points d'amélioration et définir des priorités réalistes. L'objectif : disposer d'une vision claire des actions à mener, sans partir trop vite sur une solution technique.
-                            </p>
-                            <h4 class="font-medium text-primary mb-2 text-sm uppercase tracking-wide">Je peux intervenir sur :</h4>
-                            <ul class="custom-list text-secondary text-sm">
-                                <li>diagnostic numérique ;</li>
-                                <li>audit d'un outil ou d'un processus ;</li>
-                                <li>recueil des besoins ;</li>
-                                <li>analyse des pratiques ;</li>
-                                <li>aide au choix d'une solution (benchmark) ;</li>
-                                <li>cadrage d'un projet ;</li>
-                                <li>feuille de route et priorisation.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Service 2 -->
-                <div class="bg-surface rounded-xl shadow-sm border border-slate-100 overflow-hidden">
-                    <button class="accordion-header w-full text-left px-6 py-5 flex justify-between items-center focus:outline-none hover:bg-slate-50 transition-colors">
-                        <div class="pr-6">
-                            <h3 class="text-lg font-semibold text-primary">🛡️ Vous souhaitez sécuriser vos pratiques et vos données ?</h3>
-                            <p class="text-sm text-secondary mt-1">RGPD · documentation · DUERP · bonnes pratiques</p>
-                        </div>
-                        <svg class="chevron w-6 h-6 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="px-6 pb-6 pt-2 border-t border-slate-50">
-                            <p class="text-secondary mb-4">
-                                Les associations manipulent quotidiennement des données personnelles, des documents sensibles et de nombreuses informations concernant leurs adhérents, salariés, bénéficiaires ou partenaires. Je peux vous accompagner dans la mise en place de pratiques adaptées et dans la formalisation de vos obligations, notamment en matière de RGPD. L'objectif est de transformer la conformité en pratiques concrètes et compréhensibles par les équipes.
-                            </p>
-                            <h4 class="font-medium text-primary mb-2 text-sm uppercase tracking-wide">Je peux intervenir sur :</h4>
-                            <ul class="custom-list text-secondary text-sm">
-                                <li>diagnostic et mise en conformité RGPD ;</li>
-                                <li>registre des traitements ;</li>
-                                <li>documentation et procédures ;</li>
-                                <li>mentions et formulaires ;</li>
-                                <li>gestion des droits et habilitations ;</li>
-                                <li>sensibilisation des équipes ;</li>
-                                <li>bonnes pratiques numériques ;</li>
-                                <li>accompagnement autour du DUERP.</li>
-                            </ul>
+                <div class="space-y-4">
+                    
+                    <!-- Service 1 -->
+                    <div class="bg-surface rounded-xl shadow-sm border border-slate-100 overflow-hidden">
+                        <button class="accordion-header w-full text-left px-6 py-5 flex justify-between items-center focus:outline-none hover:bg-slate-50 transition-colors">
+                            <div class="pr-6 w-full">
+                                <div class="flex items-center gap-3">
+                                    <img src="icone-1.png" alt="" class="w-8 h-8 object-contain flex-shrink-0">
+                                    <h3 class="text-lg font-semibold text-primary">Vous souhaitez faire évoluer vos pratiques numériques&nbsp;?</h3>
+                                </div>
+                                <p class="text-secondary mt-1 ml-9">diagnostic · conseil · cadrage · choix d'outils · feuille de route</p>
+                            </div>
+                            <svg class="chevron w-6 h-6 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="px-6 pb-6 pt-2 border-t border-slate-50 ml-9">
+                                <p class="text-secondary mb-4">
+                                    Vous avez des outils, des processus ou des projets numériques à faire évoluer, mais vous souhaitez d'abord prendre du recul&nbsp;? Je peux vous aider à analyser l'existant, recueillir les besoins des équipes, identifier les points d'amélioration et définir des priorités réalistes. L'objectif : disposer d'une vision claire des actions à mener, sans partir trop vite sur une solution technique.
+                                </p>
+                                <h4 class="font-medium text-primary mb-2 text-sm uppercase tracking-wide">Je peux intervenir sur :</h4>
+                                <ul class="custom-list text-secondary text-sm">
+                                    <li>diagnostic numérique&nbsp;;</li>
+                                    <li>audit d'un outil ou d'un processus&nbsp;;</li>
+                                    <li>recueil des besoins&nbsp;;</li>
+                                    <li>analyse des pratiques&nbsp;;</li>
+                                    <li>aide au choix d'une solution (benchmark)&nbsp;;</li>
+                                    <li>cadrage d'un projet&nbsp;;</li>
+                                    <li>feuille de route et priorisation.</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Service 3 -->
-                <div class="bg-surface rounded-xl shadow-sm border border-slate-100 overflow-hidden">
-                    <button class="accordion-header w-full text-left px-6 py-5 flex justify-between items-center focus:outline-none hover:bg-slate-50 transition-colors">
-                        <div class="pr-6">
-                            <h3 class="text-lg font-semibold text-primary">⚙️ Vous souhaitez simplifier le quotidien de vos équipes ?</h3>
-                            <p class="text-sm text-secondary mt-1">Microsoft 365 · SharePoint · organisation documentaire · automatisation</p>
-                        </div>
-                        <svg class="chevron w-6 h-6 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="px-6 pb-6 pt-2 border-t border-slate-50">
-                            <p class="text-secondary mb-4">
-                                Un outil numérique doit avant tout faciliter le travail des équipes. Je peux vous aider à structurer votre environnement de travail, améliorer vos processus et automatiser certaines tâches administratives répétitives. L'objectif est de faire gagner du temps aux salariés et bénévoles, tout en rendant les pratiques plus simples, plus fiables et plus faciles à transmettre.
-                            </p>
-                            <h4 class="font-medium text-primary mb-2 text-sm uppercase tracking-wide">Je peux intervenir sur :</h4>
-                            <ul class="custom-list text-secondary text-sm">
-                                <li>Microsoft 365 ;</li>
-                                <li>SharePoint ;</li>
-                                <li>Teams et espaces collaboratifs ;</li>
-                                <li>organisation documentaire ;</li>
-                                <li>gestion des droits et des accès ;</li>
-                                <li>formulaires ;</li>
-                                <li>automatisation de tâches ;</li>
-                                <li>circuits de validation ;</li>
-                                <li>optimisation de processus ;</li>
-                                <li>tableaux de suivi et reporting.</li>
-                            </ul>
+                    <!-- Service 2 -->
+                    <div class="bg-surface rounded-xl shadow-sm border border-slate-100 overflow-hidden">
+                        <button class="accordion-header w-full text-left px-6 py-5 flex justify-between items-center focus:outline-none hover:bg-slate-50 transition-colors">
+                            <div class="pr-6 w-full">
+                                <div class="flex items-center gap-3">
+                                    <img src="icone-2.png" alt="" class="w-8 h-8 object-contain flex-shrink-0">
+                                    <h3 class="text-lg font-semibold text-primary">Vous souhaitez sécuriser vos pratiques et vos données&nbsp;?</h3>
+                                </div>
+                                <p class="text-secondary mt-1 ml-9">RGPD · documentation · DUERP · bonnes pratiques</p>
+                            </div>
+                            <svg class="chevron w-6 h-6 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="px-6 pb-6 pt-2 border-t border-slate-50 ml-9">
+                                <p class="text-secondary mb-4">
+                                    Les associations manipulent quotidiennement des données personnelles, des documents sensibles et de nombreuses informations concernant leurs adhérents, salariés, bénéficiaires ou partenaires. Je peux vous accompagner dans la mise en place de pratiques adaptées et dans la formalisation de vos obligations, notamment en matière de RGPD. L'objectif est de transformer la conformité en pratiques concrètes et compréhensibles par les équipes.
+                                </p>
+                                <h4 class="font-medium text-primary mb-2 text-sm uppercase tracking-wide">Je peux intervenir sur :</h4>
+                                <ul class="custom-list text-secondary text-sm">
+                                    <li>diagnostic et mise en conformité RGPD&nbsp;;</li>
+                                    <li>registre des traitements&nbsp;;</li>
+                                    <li>documentation et procédures&nbsp;;</li>
+                                    <li>mentions et formulaires&nbsp;;</li>
+                                    <li>gestion des droits et habilitations&nbsp;;</li>
+                                    <li>sensibilisation des équipes&nbsp;;</li>
+                                    <li>bonnes pratiques numériques&nbsp;;</li>
+                                    <li>accompagnement autour du DUERP.</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Service 4 -->
-                <div class="bg-surface rounded-xl shadow-sm border border-slate-100 overflow-hidden">
-                    <button class="accordion-header w-full text-left px-6 py-5 flex justify-between items-center focus:outline-none hover:bg-slate-50 transition-colors">
-                        <div class="pr-6">
-                            <h3 class="text-lg font-semibold text-primary">🚀 Vous avez un projet ou un besoin numérique à concrétiser ?</h3>
-                            <p class="text-sm text-secondary mt-1">Site web · extranet · espace membre · application métier · reporting</p>
-                        </div>
-                        <svg class="chevron w-6 h-6 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="px-6 pb-6 pt-2 border-t border-slate-50">
-                            <p class="text-secondary mb-4">
-                                Site internet vieillissant, besoin d'un espace membre, outil interne devenu insuffisant ou besoin métier spécifique : je peux vous accompagner dans la conception et la réalisation de solutions numériques adaptées à votre fonctionnement. Selon le besoin, il peut s'agir de faire évoluer l'existant, de mettre en place un outil du marché ou de concevoir une solution sur mesure.
-                            </p>
-                            <h4 class="font-medium text-primary mb-2 text-sm uppercase tracking-wide">Je peux intervenir sur :</h4>
-                            <ul class="custom-list text-secondary text-sm">
-                                <li>site institutionnel (réalisation ou refonte) ;</li>
-                                <li>espace privé / extranet ;</li>
-                                <li>espace adhérent ou salarié ;</li>
-                                <li>gestion des dons et adhésions ;</li>
-                                <li>applications web métier ;</li>
-                                <li>outils de gestion ;</li>
-                                <li>tableaux de bord et reporting ;</li>
-                                <li>développement de solution sur mesure.</li>
-                            </ul>
+                    <!-- Service 3 -->
+                    <div class="bg-surface rounded-xl shadow-sm border border-slate-100 overflow-hidden">
+                        <button class="accordion-header w-full text-left px-6 py-5 flex justify-between items-center focus:outline-none hover:bg-slate-50 transition-colors">
+                            <div class="pr-6 w-full">
+                                <div class="flex items-center gap-3">
+                                    <img src="icone-3.png" alt="" class="w-8 h-8 object-contain flex-shrink-0">
+                                    <h3 class="text-lg font-semibold text-primary">Vous souhaitez simplifier le quotidien de vos équipes&nbsp;?</h3>
+                                </div>
+                                <p class="text-secondary mt-1 ml-9">Microsoft 365 · SharePoint · organisation documentaire · automatisation</p>
+                            </div>
+                            <svg class="chevron w-6 h-6 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="px-6 pb-6 pt-2 border-t border-slate-50 ml-9">
+                                <p class="text-secondary mb-4">
+                                    Un outil numérique doit avant tout faciliter le travail des équipes. Je peux vous aider à structurer votre environnement de travail, améliorer vos processus et automatiser certaines tâches administratives répétitives. L'objectif est de faire gagner du temps aux salariés et bénévoles, tout en rendant les pratiques plus simples, plus fiables et plus faciles à transmettre.
+                                </p>
+                                <h4 class="font-medium text-primary mb-2 text-sm uppercase tracking-wide">Je peux intervenir sur :</h4>
+                                <ul class="custom-list text-secondary text-sm">
+                                    <li>Microsoft 365&nbsp;;</li>
+                                    <li>SharePoint&nbsp;;</li>
+                                    <li>Teams et espaces collaboratifs&nbsp;;</li>
+                                    <li>organisation documentaire&nbsp;;</li>
+                                    <li>gestion des droits et des accès&nbsp;;</li>
+                                    <li>formulaires&nbsp;;</li>
+                                    <li>automatisation de tâches&nbsp;;</li>
+                                    <li>circuits de validation&nbsp;;</li>
+                                    <li>optimisation de processus&nbsp;;</li>
+                                    <li>tableaux de suivi et reporting.</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Service 5 -->
-                <div class="bg-surface rounded-xl shadow-sm border border-slate-100 overflow-hidden">
-                    <button class="accordion-header w-full text-left px-6 py-5 flex justify-between items-center focus:outline-none hover:bg-slate-50 transition-colors">
-                        <div class="pr-6">
-                            <h3 class="text-lg font-semibold text-primary">🤝 Vous avez besoin d'un interlocuteur pour piloter vos projets numériques ?</h3>
-                            <p class="text-sm text-secondary mt-1">Référent numérique externalisé · gestion de projet · coordination</p>
-                        </div>
-                        <svg class="chevron w-6 h-6 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="px-6 pb-6 pt-2 border-t border-slate-50">
-                            <p class="text-secondary mb-4">
-                                Vous avez un projet numérique mais pas nécessairement les ressources en interne pour le piloter ? Je peux intervenir comme chef de projet, AMOA ou référent numérique, ponctuellement ou dans la durée. Je fais le lien entre les équipes métier, la direction, les utilisateurs et les prestataires techniques, de la définition du besoin jusqu'à la mise en production.
-                            </p>
-                            <h4 class="font-medium text-primary mb-2 text-sm uppercase tracking-wide">Je peux intervenir sur :</h4>
-                            <ul class="custom-list text-secondary text-sm">
-                                <li>cadrage de projet ;</li>
-                                <li>AMOA ;</li>
-                                <li>pilotage de prestataires ;</li>
-                                <li>coordination des intervenants ;</li>
-                                <li>gestion des priorités ;</li>
-                                <li>suivi des développements ;</li>
-                                <li>organisation des recettes ;</li>
-                                <li>conduite du changement ;</li>
-                                <li>documentation ;</li>
-                                <li>accompagnement post-déploiement.</li>
-                            </ul>
+                    <!-- Service 4 -->
+                    <div class="bg-surface rounded-xl shadow-sm border border-slate-100 overflow-hidden">
+                        <button class="accordion-header w-full text-left px-6 py-5 flex justify-between items-center focus:outline-none hover:bg-slate-50 transition-colors">
+                            <div class="pr-6 w-full">
+                                <div class="flex items-center gap-3">
+                                    <img src="icone-4.png" alt="" class="w-8 h-8 object-contain flex-shrink-0">
+                                    <h3 class="text-lg font-semibold text-primary">Vous avez un projet ou un besoin numérique à concrétiser&nbsp;?</h3>
+                                </div>
+                                <p class="text-secondary mt-1 ml-9">site web · extranet · espace membre · application métier · reporting</p>
+                            </div>
+                            <svg class="chevron w-6 h-6 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="px-6 pb-6 pt-2 border-t border-slate-50 ml-9">
+                                <p class="text-secondary mb-4">
+                                    Site internet vieillissant, besoin d'un espace membre, outil interne devenu insuffisant ou besoin métier spécifique : je peux vous accompagner dans la conception et la réalisation de solutions numériques adaptées à votre fonctionnement. Selon le besoin, il peut s'agir de faire évoluer l'existant, de mettre en place un outil du marché ou de concevoir une solution sur mesure.
+                                </p>
+                                <h4 class="font-medium text-primary mb-2 text-sm uppercase tracking-wide">Je peux intervenir sur :</h4>
+                                <ul class="custom-list text-secondary text-sm">
+                                    <li>site institutionnel (réalisation ou refonte)&nbsp;;</li>
+                                    <li>espace privé / extranet&nbsp;;</li>
+                                    <li>espace adhérent ou salarié&nbsp;;</li>
+                                    <li>gestion des dons et adhésions&nbsp;;</li>
+                                    <li>applications web métier&nbsp;;</li>
+                                    <li>outils de gestion&nbsp;;</li>
+                                    <li>tableaux de bord et reporting&nbsp;;</li>
+                                    <li>développement de solution sur mesure.</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                    <!-- Service 5 -->
+                    <div class="bg-surface rounded-xl shadow-sm border border-slate-100 overflow-hidden">
+                        <button class="accordion-header w-full text-left px-6 py-5 flex justify-between items-center focus:outline-none hover:bg-slate-50 transition-colors">
+                            <div class="pr-6 w-full">
+                                <div class="flex items-center gap-3">
+                                    <img src="icone-5.png" alt="" class="w-8 h-8 object-contain flex-shrink-0">
+                                    <h3 class="text-lg font-semibold text-primary">Vous avez besoin d'un interlocuteur pour piloter vos projets numériques&nbsp;?</h3>
+                                </div>
+                                <p class="text-secondary mt-1 ml-9">référent numérique externalisé · gestion de projet · coordination</p>
+                            </div>
+                            <svg class="chevron w-6 h-6 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="px-6 pb-6 pt-2 border-t border-slate-50 ml-9">
+                                <p class="text-secondary mb-4">
+                                    Vous avez un projet numérique mais pas nécessairement les ressources en interne pour le piloter&nbsp;? Je peux intervenir comme chef de projet, AMOA ou référent numérique, ponctuellement ou dans la durée. Je fais le lien entre les équipes métier, la direction, les utilisateurs et les prestataires techniques, de la définition du besoin jusqu'à la mise en production.
+                                </p>
+                                <h4 class="font-medium text-primary mb-2 text-sm uppercase tracking-wide">Je peux intervenir sur :</h4>
+                                <ul class="custom-list text-secondary text-sm">
+                                    <li>cadrage de projet&nbsp;;</li>
+                                    <li>pilotage de prestataires&nbsp;;</li>
+                                    <li>coordination des intervenants&nbsp;;</li>
+                                    <li>gestion des priorités&nbsp;;</li>
+                                    <li>suivi des développements&nbsp;;</li>
+                                    <li>organisation des recettes&nbsp;;</li>
+                                    <li>conduite du changement&nbsp;;</li>
+                                    <li>documentation&nbsp;;</li>
+                                    <li>accompagnement post-déploiement.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
 
+        <!-- Section Approche -->
         <section id="approche" class="py-16 px-6 sm:px-12 lg:px-24 bg-surface border-y border-slate-200">
-            <div class="max-w-5xl mx-auto">
-                <h2 class="text-3xl font-bold mb-6 text-center text-primary uppercase tracking-wider text-sm">Une approche adaptée à chaque association</h2>
-                <p class="text-center text-secondary max-w-3xl mx-auto mb-12">
-                    Chaque structure a ses propres contraintes, ses outils, ses équipes et ses priorités. Je ne propose donc pas de solution toute faite : j'interviens à partir de votre contexte et de vos besoins, avec une approche pragmatique et progressive.
-                </p>
-                
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <!-- Bloc 1 -->
-                    <div class="bg-background rounded-xl p-8 border border-slate-100 shadow-sm text-center">
-                        <div class="w-12 h-12 bg-slate-200 text-slate-600 rounded-full flex items-center justify-center mx-auto mb-4 text-xl">1</div>
-                        <h3 class="text-xl font-semibold mb-3 text-primary">Comprendre</h3>
-                        <p class="text-secondary text-sm">Vos besoins, vos usages et vos contraintes.</p>
-                    </div>
-                    <!-- Bloc 2 -->
-                    <div class="bg-background rounded-xl p-8 border border-slate-100 shadow-sm text-center">
-                        <div class="w-12 h-12 bg-slate-200 text-slate-600 rounded-full flex items-center justify-center mx-auto mb-4 text-xl">2</div>
-                        <h3 class="text-xl font-semibold mb-3 text-primary">Construire</h3>
-                        <p class="text-secondary text-sm">La solution la plus pertinente, qu'il s'agisse d'un outil existant, d'une amélioration ou d'un développement spécifique.</p>
-                    </div>
-                    <!-- Bloc 3 -->
-                    <div class="bg-background rounded-xl p-8 border border-slate-100 shadow-sm text-center">
-                        <div class="w-12 h-12 bg-slate-200 text-slate-600 rounded-full flex items-center justify-center mx-auto mb-4 text-xl">3</div>
-                        <h3 class="text-xl font-semibold mb-3 text-primary">Accompagner</h3>
-                        <p class="text-secondary text-sm">De la conception à la mise en œuvre, puis à l'appropriation par les équipes.</p>
-                    </div>
+            <div class="max-w-4xl mx-auto">
+                <h2 class="font-bold mb-6 uppercase tracking-wider text-sm text-[#777777]">Approche</h2>
+                <div class="space-y-4 text-secondary">
+                    <p>
+                        Chaque association a son propre fonctionnement, contraintes, outils et priorités. Je ne propose donc pas de solution toute faite mais aborde chaque mission à partir de votre réalité, en commençant par des entretiens.
+                    </p>
+                    <p>
+                        Mon approche est pragmatique : améliorer l'existant lorsque c'est possible, simplifier les processus, choisir un outil adapté lorsque cela suffit, ou concevoir une solution sur mesure lorsque c'est nécessaire.
+                    </p>
+                    <p>
+                        De la réflexion à la mise en œuvre, je vous accompagne avec une attention particulière portée à la simplicité, à l'utilité pour les utilisateurs et à la capacité de l'association à faire vivre la solution dans la durée.
+                    </p>
                 </div>
-            </div>
+            </div> 
         </section>
 
-        <section id="a-propos" class="py-20 px-6 sm:px-12 lg:px-24 max-w-4xl mx-auto">
-            <h2 class="text-3xl font-bold mb-8 text-center text-primary uppercase tracking-wider text-sm">À Propos</h2>
-            <div class="prose prose-slate max-w-none text-secondary text-center space-y-4">
-                <p>
-                    Chef de projet digital / Product Owner depuis plus de 15 ans, j'accompagne des organisations dans la conception et la mise en œuvre de leurs projets numériques.
-                </p>
-                <p>
-                    Mon parcours m'a amené à intervenir sur des projets variés, notamment dans les secteurs associatif et médico-social, à la croisée des enjeux métiers, utilisateurs et techniques. Cadrage, conception fonctionnelle, pilotage, outils web, conformité RGPD : j'interviens avec une approche pragmatique, adaptée aux besoins et aux moyens de chaque structure.
-                </p>
-                <p class="font-medium text-primary mt-6">
-                    Ma mission : vous aider à trouver des solutions numériques utiles, réalistes et adaptées à votre fonctionnement.
-                </p>
+        <!-- Section À Propos -->
+        <section id="a-propos" class="py-20 px-6 sm:px-12 lg:px-24">
+            <div class="max-w-4xl mx-auto flow-root">
+                <h2 class="font-bold mb-6 uppercase tracking-wider text-sm text-[#777777]">À Propos</h2>
+                        
+                <!-- Photo Médaillon positionnée en float-left (écran large) et centrée (mobile) -->
+                <div class="relative block mx-auto mb-8 sm:float-left sm:mr-8 sm:mb-4 w-[160px] h-[160px]">
+                    <div class="absolute inset-0 rounded-full bg-slate-200 animate-pulse -z-10 blur-md"></div>
+                    <img 
+                        src="Nazim-Delaine-2026-02-21.jpg" 
+                        alt="Nazim Delaine" 
+                        class="w-full h-full object-cover rounded-full shadow-lg border-4 border-surface"
+                        onerror="this.src='https://placehold.co/160x160/e2e8f0/475569?text=ND'"
+                    >
+                </div>
+            
+                <div class="space-y-4 text-secondary">
+                    <p>
+                        Chef de projet digital / Product Owner depuis plus de 15 ans, j'accompagne des organisations dans la conception et la mise en œuvre de leurs projets numériques.
+                    </p>
+                    <p>
+                        Mon parcours m'a amené à intervenir sur des projets variés, notamment dans les secteurs associatif et médico-social, à la croisée des enjeux métiers, utilisateurs et techniques. Cadrage, conception fonctionnelle, pilotage, outils web, conformité RGPD : j'interviens avec une approche pragmatique, adaptée aux besoins et aux moyens de chaque structure.
+                    </p>
+                    <p class="text-lg">
+                        Ma mission : vous aider à trouver des solutions numériques utiles, réalistes et adaptées à votre fonctionnement.
+                    </p>
+                </div>
             </div>
         </section>
 
     </main>
 
-    <footer id="contact" class="bg-primary text-surface py-20 px-6 sm:px-12">
-        <div class="max-w-3xl mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-6 uppercase tracking-wider text-sm text-slate-300">Contact</h2>
-            <p class="text-lg mb-4 text-slate-200">
-                Vous avez une question, un projet ou simplement un besoin à clarifier ?
+    <!-- Section Contact -->
+    <footer id="contact" class="py-16 px-6 sm:px-12 lg:px-24 bg-surface border-y border-slate-200">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="font-bold mb-6 uppercase tracking-wider text-sm text-[#777777]">Contact</h2>
+            <p class="text-xl mb-4 text-primary">
+                Vous avez une question, un projet ou simplement un besoin à clarifier&nbsp;?
             </p>
-            <p class="text-slate-400 mb-10">
+            <p class="mb-10 text-secondary">
                 Échangeons sur votre situation. Un premier échange permet généralement de préciser le besoin et de voir ensemble comment je peux vous accompagner.
             </p>
             
-            <div class="inline-flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 bg-slate-800 p-6 rounded-xl border border-slate-700 w-full sm:w-auto">
-                <div class="text-center sm:text-left border-b sm:border-b-0 sm:border-r border-slate-600 pb-4 sm:pb-0 sm:pr-8">
-                    <p class="font-bold text-xl mb-1">Nazim Delaine</p>
-                    <p class="text-sm text-slate-400 uppercase tracking-wide">Consultant Numérique</p>
+            <div class="inline-flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 bg-slate-100 p-6 rounded-xl border border-slate-100 w-full sm:w-auto">
+                <div class="text-center sm:text-left border-b sm:border-b-0 sm:border-r border-slate-300 pb-4 sm:pb-0 sm:pr-8">
+                    <p class="font-bold text-xl mb-1 text-primary">Nazim Delaine</p>
+                    <p class="text-sm text-slate-500 uppercase tracking-wide">Consultant Numérique</p>
                 </div>
                 <div class="flex flex-col gap-2 text-center sm:text-left">
-                    <a href="mailto:nazimdelaine@gmail.com" class="hover:text-white text-slate-300 transition-colors flex items-center justify-center sm:justify-start gap-2">
+                    <a href="mailto:nazimdelaine@gmail.com" class="hover:text-primary text-secondary transition-colors flex items-center justify-center sm:justify-start gap-2">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                         nazimdelaine@gmail.com
                     </a>
-                    <a href="tel:+33689199195" class="hover:text-white text-slate-300 transition-colors flex items-center justify-center sm:justify-start gap-2">
+                    <a href="tel:+33689199195" class="hover:text-primary text-secondary transition-colors flex items-center justify-center sm:justify-start gap-2">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
                         +33 6 89 19 91 95
                     </a>
@@ -371,17 +379,6 @@
                     const content = header.nextElementSibling;
                     const chevron = header.querySelector('.chevron');
                     const isOpen = content.classList.contains('is-open');
-
-                    // Optionnel : fermer les autres accordéons lorsqu'on en ouvre un
-                    /*
-                    document.querySelectorAll('.accordion-content').forEach(item => {
-                        item.style.maxHeight = null;
-                        item.classList.remove('is-open');
-                    });
-                    document.querySelectorAll('.chevron').forEach(icon => {
-                        icon.classList.remove('rotate-180');
-                    });
-                    */
 
                     if (!isOpen) {
                         content.classList.add('is-open');
